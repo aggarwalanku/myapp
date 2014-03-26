@@ -1,0 +1,5 @@
+class article
+	include mongoid::document
+	field :name
+	field :content
+end
